@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Allan&family=Lato:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Allan", cursive;
+  .container {
+    h1 {
+      text-align: center;
+      padding: 30px;
+    }
+    .input_box {
+      text-align: center;
+      select,
+      input {
+        padding: 10px;
+        background: #0b3c49;
+        color: white;
+        font-size: 20px;
+        border: none;
+        &:focus {
+          outline: none !important;
+        }
+      }
+    }
+    h2 {
+      font-size: 30px;
+      text-align: center;
+      padding: 30px;
+    }
+    ul {
+      list-style: none;
+      line-height: 2;
+      font-size: 22px;
+      width: 19%;
+      margin: 0 auto;
+      li {
+        text-transform: capitalize;
+        span {
+          color: #0b3c49;
+          margin-right: 20px;
+        }
+      }
+    }
+  }
+}
